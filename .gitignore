@@ -1,7 +1,5 @@
 *.bak
 *.swp
-.env*
-!.env.example
 .jitsi-meet-cfg/
 .local-certs/
 docker-compose.override.yml
