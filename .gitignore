@@ -1,0 +1,11 @@
+*.bak
+*.swp
+.env*
+!.env.example
+.jitsi-meet-cfg/
+.local-certs/
+docker-compose.override.yml
+log-analyser/grafana
+**/.DS_Store
+**/.idea
+/tracing/tempo-data

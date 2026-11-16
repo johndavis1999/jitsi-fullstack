@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap');
+
+:root {
+  font-family: 'DM Sans', 'Avenir Next', sans-serif;
+  color: #172b26;
+  background: #f3f5ef;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+
+  --ink: #172b26;
+  --muted: #687871;
+  --line: #dce3db;
+  --paper: #f3f5ef;
+  --white: #fffefa;
+  --green: #245c4b;
+  --green-deep: #173d33;
+  --lime: #d7ed93;
+  --coral: #e27e5e;
+}
+
+* { box-sizing: border-box; }
+
+html,
+body,
+#root {
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0;
+}
+
+body { min-height: 100vh; }
+button, input { font: inherit; }
+button, a, input { -webkit-tap-highlight-color: transparent; }
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 3px solid #e27e5e;
+  outline-offset: 3px;
+}
+
+::selection {
+  color: #fffefa;
+  background: #245c4b;
+}

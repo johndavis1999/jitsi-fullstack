@@ -1,0 +1,1 @@
+interfaceConfig.JITSI_WATERMARK_LINK = '';
